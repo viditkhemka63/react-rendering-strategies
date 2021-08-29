@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import ReactDOM from "react-dom";
 import useNearScreen from "./useNearScreen";
+// import { jsx as _jsx } from "react/jsx-runtime";
 
 const EMPTY_HTML = { __html: "" };
 const isServer = typeof window === "undefined";
